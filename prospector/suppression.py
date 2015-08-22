@@ -23,6 +23,7 @@ import os
 import re
 import codecs
 from collections import defaultdict
+from prospector.encoding import determine_pyfile_encoding
 
 
 _FLAKE8_IGNORE_FILE = re.compile(r'flake8[:=]\s*noqa', re.IGNORECASE)
